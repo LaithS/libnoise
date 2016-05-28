@@ -1,0 +1,91 @@
+﻿Build started 5/28/2016 2:19:18 PM.
+     1>Project "C:\Users\Laith\Documents\Projects\noise\libnoise.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DLLEXPORT /D DLLEXPORT_DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm /EHsc /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Gd /TP /analyze- /errorReport:prompt src\latlon.cpp src\model\cylinder.cpp src\model\line.cpp src\model\plane.cpp src\model\sphere.cpp src\module\abs.cpp src\module\add.cpp src\module\billow.cpp src\module\blend.cpp src\module\cache.cpp src\module\checkerboard.cpp src\module\clamp.cpp src\module\const.cpp src\module\curve.cpp src\module\cylinders.cpp src\module\displace.cpp src\module\exponent.cpp src\module\invert.cpp src\module\max.cpp src\module\min.cpp src\module\modulebase.cpp src\module\multiply.cpp src\module\perlin.cpp src\module\power.cpp src\module\ridgedmulti.cpp src\module\rotatepoint.cpp src\module\scalebias.cpp src\module\scalepoint.cpp src\module\select.cpp src\module\spheres.cpp src\module\terrace.cpp src\module\translatepoint.cpp src\module\turbulence.cpp src\module\voronoi.cpp src\noisegen.cpp src\win32\dllmain.cpp
+         dllmain.cpp
+         noisegen.cpp
+         voronoi.cpp
+         turbulence.cpp
+         translatepoint.cpp
+         terrace.cpp
+         spheres.cpp
+         select.cpp
+         scalepoint.cpp
+         scalebias.cpp
+         rotatepoint.cpp
+         ridgedmulti.cpp
+         power.cpp
+         perlin.cpp
+         multiply.cpp
+         modulebase.cpp
+         min.cpp
+         max.cpp
+         invert.cpp
+         exponent.cpp
+         Generating Code...
+         Compiling...
+         displace.cpp
+         cylinders.cpp
+         curve.cpp
+         const.cpp
+         clamp.cpp
+         checkerboard.cpp
+         cache.cpp
+         blend.cpp
+         billow.cpp
+         add.cpp
+         abs.cpp
+         sphere.cpp
+         plane.cpp
+         line.cpp
+         cylinder.cpp
+         latlon.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /Isrc\win32 /nologo /fo"./Win32/Debug/noise.res" src\win32\noise.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Win32/Debug\libnoise.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"./Win32/Debug/libnoise.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\win32/Debug\libnoise.lib" /MACHINE:X86 /SAFESEH /DLL ./Win32/Debug/noise.res
+         latlon.obj
+         cylinder.obj
+         line.obj
+         plane.obj
+         sphere.obj
+         abs.obj
+         add.obj
+         billow.obj
+         blend.obj
+         cache.obj
+         checkerboard.obj
+         clamp.obj
+         const.obj
+         curve.obj
+         cylinders.obj
+         displace.obj
+         exponent.obj
+         invert.obj
+         max.obj
+         min.obj
+         modulebase.obj
+         multiply.obj
+         perlin.obj
+         power.obj
+         ridgedmulti.obj
+         rotatepoint.obj
+         scalebias.obj
+         scalepoint.obj
+         select.obj
+         spheres.obj
+         terrace.obj
+         translatepoint.obj
+         turbulence.obj
+         voronoi.obj
+         noisegen.obj
+         dllmain.obj
+     1>latlon.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library .\win32/Debug\libnoise.lib and object .\win32/Debug\libnoise.exp
+         libnoise.vcxproj -> C:\Users\Laith\Documents\Projects\noise\./Win32/Debug/libnoise.dll
+     1>Done Building Project "C:\Users\Laith\Documents\Projects\noise\libnoise.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.54
