@@ -118,120 +118,120 @@
     <ClCompile Include="src\noisegen.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\module\abs.h">
+    <ClInclude Include="include\basictypes.h" />
+    <ClInclude Include="include\exception.h" />
+    <ClInclude Include="include\interp.h" />
+    <ClInclude Include="include\latlon.h" />
+    <ClInclude Include="include\mathconsts.h" />
+    <ClInclude Include="include\misc.h" />
+    <ClInclude Include="include\noise.h" />
+    <ClInclude Include="include\noisegen.h" />
+    <ClInclude Include="include\vectortable.h" />
+    <ClInclude Include="include\module\abs.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\add.h">
+    <ClInclude Include="include\module\add.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\billow.h">
+    <ClInclude Include="include\module\billow.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\blend.h">
+    <ClInclude Include="include\module\blend.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\cache.h">
+    <ClInclude Include="include\module\cache.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\checkerboard.h">
+    <ClInclude Include="include\module\checkerboard.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\clamp.h">
+    <ClInclude Include="include\module\clamp.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\const.h">
+    <ClInclude Include="include\module\const.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\curve.h">
+    <ClInclude Include="include\module\curve.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\cylinders.h">
+    <ClInclude Include="include\module\cylinders.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\displace.h">
+    <ClInclude Include="include\module\displace.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\exponent.h">
+    <ClInclude Include="include\module\exponent.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\invert.h">
+    <ClInclude Include="include\module\invert.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\max.h">
+    <ClInclude Include="include\module\max.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\min.h">
+    <ClInclude Include="include\module\min.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\module.h">
+    <ClInclude Include="include\module\module.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\modulebase.h">
+    <ClInclude Include="include\module\modulebase.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\multiply.h">
+    <ClInclude Include="include\module\multiply.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\perlin.h">
+    <ClInclude Include="include\module\perlin.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\power.h">
+    <ClInclude Include="include\module\power.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\ridgedmulti.h">
+    <ClInclude Include="include\module\ridgedmulti.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\rotatepoint.h">
+    <ClInclude Include="include\module\rotatepoint.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\scalebias.h">
+    <ClInclude Include="include\module\scalebias.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\scalepoint.h">
+    <ClInclude Include="include\module\scalepoint.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\select.h">
+    <ClInclude Include="include\module\select.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\spheres.h">
+    <ClInclude Include="include\module\spheres.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\terrace.h">
+    <ClInclude Include="include\module\terrace.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\translatepoint.h">
+    <ClInclude Include="include\module\translatepoint.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\turbulence.h">
+    <ClInclude Include="include\module\turbulence.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\module\voronoi.h">
+    <ClInclude Include="include\module\voronoi.h">
       <Filter>modules</Filter>
     </ClInclude>
-    <ClInclude Include="src\model\cylinder.h">
+    <ClInclude Include="include\model\cylinder.h">
       <Filter>models</Filter>
     </ClInclude>
-    <ClInclude Include="src\model\line.h">
+    <ClInclude Include="include\model\line.h">
       <Filter>models</Filter>
     </ClInclude>
-    <ClInclude Include="src\model\model.h">
+    <ClInclude Include="include\model\model.h">
       <Filter>models</Filter>
     </ClInclude>
-    <ClInclude Include="src\model\plane.h">
+    <ClInclude Include="include\model\plane.h">
       <Filter>models</Filter>
     </ClInclude>
-    <ClInclude Include="src\model\sphere.h">
+    <ClInclude Include="include\model\sphere.h">
       <Filter>models</Filter>
     </ClInclude>
-    <ClInclude Include="src\basictypes.h" />
-    <ClInclude Include="src\exception.h" />
-    <ClInclude Include="src\interp.h" />
-    <ClInclude Include="src\latlon.h" />
-    <ClInclude Include="src\mathconsts.h" />
-    <ClInclude Include="src\misc.h" />
-    <ClInclude Include="src\noise.h" />
-    <ClInclude Include="src\noisegen.h" />
-    <ClInclude Include="src\vectortable.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="src\win32\noise.rc">
